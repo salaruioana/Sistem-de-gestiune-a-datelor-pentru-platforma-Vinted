@@ -1,0 +1,2 @@
+# Sistem-de-gestiune-a-datelor-pentru-platforma-Vinted
+Baza de date pentru aplicația Vinted este proiectată să susțină un marketplace cu accent pe: integritatea tranzacțiilor prin constrângeri și triggere de validare, transparența prețurilor prin istoricul complet al negocierilor, reputația utilizatorilor prin sistemul de feedback bilateral, scalabilitate prin dimensionarea adecvată a tipurilor de date
