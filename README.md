@@ -21,19 +21,3 @@ Aplicația facilitează vânzarea și cumpărarea de produse (îmbrăcăminte, d
 * Nu se procesează plăți reale, doar statusul acestora.
 
 ---
-
-## 2. Arhitectura Bazei de Date
-
-### Diagrama Entitate-Relație (Simplificată)
-Structura este centrată pe utilizator și produs, respectând formele normale 1NF, 2NF și 3NF.
-
-```mermaid
-erDiagram
-    UTILIZATOR ||--|{ PRODUS : vinde
-    UTILIZATOR ||--|{ COMANDA : cumpara
-    UTILIZATOR ||--|{ MESAJ : trimite_primeste
-    CATEGORIE ||--|{ PRODUS : contine
-    CATEGORIE ||--|{ CATEGORIE : subcategorie
-    PRODUS ||--|| COMANDA : generat_din
-    PRODUS ||--|{ ISTORIC_PRET : are
-    COMANDA ||--|{ FEEDBACK : genereaza
